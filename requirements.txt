@@ -1,0 +1,17 @@
+
+# GUIDE D'INSTALLATION VS CODE (PROJET WEB PWA)
+# ---------------------------------------------
+
+1. Assurez-vous d'avoir Node.js installé (https://nodejs.org)
+2. Ouvrez ce dossier dans VS Code.
+3. Ouvrez le terminal (Ctrl+`) et lancez :
+   npm install
+
+4. Pour lancer le serveur de développement :
+   npm run dev
+
+5. Pour générer les fichiers de production (dossier /dist) :
+   npm run build
+
+Note : Le projet utilise Vite + React + Tailwind CSS.
+Aucune clé API Google AI n'est requise.

@@ -1,0 +1,25 @@
+
+{
+  "short_name": "Amed Resto",
+  "name": "Cafe Resto Amed Ouaga",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&q=80&w=192&h=192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&q=80&w=512&h=512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#d97706",
+  "description": "Le meilleur des grillades et fast-food à Ouagadougou 24h/24."
+}
