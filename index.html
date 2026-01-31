@@ -57,29 +57,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <style type="text/tailwindcss">
-      @layer base {
-        body { 
-          @apply font-sans bg-stone-50 text-stone-900 transition-colors duration-300 overflow-x-hidden antialiased;
-          -webkit-tap-highlight-color: transparent;
-        }
-        .dark body {
-          @apply bg-stone-950 text-stone-100;
-        }
-        h1, h2, h3 { font-family: 'Playfair Display', serif; }
-      }
-      
-      @layer components {
-        .glass-nav {
-          @apply bg-white/80 dark:bg-stone-950/80 backdrop-blur-2xl border-b border-stone-200 dark:border-white/10 shadow-lg;
-        }
-        .btn-primary {
-          @apply bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-2xl font-black transition-all active:scale-95 shadow-lg shadow-amber-600/20;
-        }
-        .card-themed {
-          @apply bg-white dark:bg-stone-900 border border-stone-200 dark:border-white/5 shadow-xl transition-all duration-300;
-        }
-      }
-
       section[id] { scroll-margin-top: 100px; }
       
       ::-webkit-scrollbar { width: 6px; }

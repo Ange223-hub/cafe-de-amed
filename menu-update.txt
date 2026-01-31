@@ -1,0 +1,142 @@
+const MENU_DATA: MenuItem[] = [
+  // Plats principaux
+  { 
+    id: '1', 
+    category: 'Plats', 
+    name: 'Poulet', 
+    price: 3500, 
+    priceString: '3,500 FCFA', 
+    description: 'Poulet frais grillé au feu de bois, accompagné de sauce maison.',
+    image: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&q=80&w=800',
+    popular: true,
+    prepTime: 20
+  },
+  { 
+    id: '2', 
+    category: 'Plats', 
+    name: 'Poisson', 
+    price: 2000, 
+    priceString: '2,000 FCFA', 
+    description: 'Poisson frais grillé, assaisonné aux épices locales.',
+    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=800',
+    prepTime: 15
+  },
+  { 
+    id: '3', 
+    category: 'Plats', 
+    name: 'Poisson Premium', 
+    price: 2500, 
+    priceString: '2,500 FCFA', 
+    description: 'Grande portion de poisson grillé avec accompagnements.',
+    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=800',
+    prepTime: 15
+  },
+  { 
+    id: '4', 
+    category: 'Plats', 
+    name: 'Poisson Royal', 
+    price: 3000, 
+    priceString: '3,000 FCFA', 
+    description: 'Poisson de choix grillé avec sauce spéciale du chef.',
+    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=800',
+    prepTime: 20
+  },
+  
+  // Sandwichs et Fast Food
+  { 
+    id: '5', 
+    category: 'Sandwichs', 
+    name: 'Poulet Pané Frite', 
+    price: 3000, 
+    priceString: '3,000 FCFA', 
+    description: 'Poulet pané croustillant avec frites maison.',
+    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=800',
+    popular: true,
+    prepTime: 10
+  },
+  { 
+    id: '6', 
+    category: 'Sandwichs', 
+    name: 'Panini Classique', 
+    price: 700, 
+    priceString: '700 FCFA', 
+    description: 'Panini chaud avec fromage et jambon.',
+    image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&q=80&w=800',
+    prepTime: 5
+  },
+  { 
+    id: '7', 
+    category: 'Sandwichs', 
+    name: 'Panini Suprême', 
+    price: 800, 
+    priceString: '800 FCFA', 
+    description: 'Panini avec viande, fromage et légumes grillés.',
+    image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&q=80&w=800',
+    prepTime: 7
+  },
+  { 
+    id: '8', 
+    category: 'Sandwichs', 
+    name: 'Panini Royal', 
+    price: 1000, 
+    priceString: '1,000 FCFA', 
+    description: 'Panini premium avec steak et fromage spécial.',
+    image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&q=80&w=800',
+    prepTime: 8
+  },
+  { 
+    id: '9', 
+    category: 'Sandwichs', 
+    name: 'Chawarma', 
+    price: 1000, 
+    priceString: '1,000 FCFA', 
+    description: 'Chawarma traditionnel avec sauce yaourt.',
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800',
+    popular: true,
+    prepTime: 10
+  },
+  
+  // Accompagnements
+  { 
+    id: '10', 
+    category: 'Accompagnements', 
+    name: 'Frite', 
+    price: 1000, 
+    priceString: '1,000 FCFA', 
+    description: 'Frites fraîches et croustillantes.',
+    image: 'https://images.unsplash.com/photo-1576107232686-3c4030a8667a?auto=format&fit=crop&q=80&w=800',
+    prepTime: 5
+  },
+  { 
+    id: '11', 
+    category: 'Accompagnements', 
+    name: 'Brochette', 
+    price: 200, 
+    priceString: '200 FCFA', 
+    description: 'Brochette de viande grillée.',
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800',
+    prepTime: 8
+  },
+  { 
+    id: '12', 
+    category: 'Accompagnements', 
+    name: 'Merguez', 
+    price: 200, 
+    priceString: '200 FCFA', 
+    description: 'Saucisse merguez épicée grillée.',
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800',
+    prepTime: 6
+  },
+  
+  // Plats internationaux
+  { 
+    id: '13', 
+    category: 'Plats', 
+    name: 'Spaghetti', 
+    price: 1000, 
+    priceString: '1,000 FCFA', 
+    description: 'Spaghetti avec sauce bolognaise maison.',
+    image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800',
+    prepTime: 12
+  }
+];

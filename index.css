@@ -5,9 +5,9 @@
   Pour le moment, elles sont désactivées pour ne pas bloquer l'aperçu navigateur.
 */
 
-/* @tailwind base; */
-/* @tailwind components; */
-/* @tailwind utilities; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
